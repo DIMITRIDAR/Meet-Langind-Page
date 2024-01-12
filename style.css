@@ -21,3 +21,25 @@ body {
 .header-image {
   padding: 4.8rem 12.8rem 0;
 }
+
+.groups {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.heroes {
+  width: 41.4rem;
+  height: 15.3rem;
+}
+
+.group1 {
+  overflow: hidden;
+  display: none;
+}
+
+.group2 {
+  overflow: hidden;
+  display: none;
+}
