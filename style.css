@@ -43,3 +43,169 @@ body {
   overflow: hidden;
   display: none;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 5.4rem;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.8rem;
+  gap: 2.4rem;
+}
+
+.title {
+  color: #28283d;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4.4rem;
+  width: 10ch;
+}
+
+.description {
+  color: #87879d;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  width: 30ch;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.download {
+  background: #4d96a9;
+  border-radius: 2.9rem;
+  border: none;
+  width: 19.3rem;
+  height: 5.8rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+}
+
+.download span {
+  color: #8fe3f9;
+}
+
+.what {
+  background: #855fb1;
+  width: 13.9rem;
+  height: 5.8rem;
+  border-radius: 2.9rem;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #87879d;
+  stroke-width: 0.1rem;
+  opacity: 0.25;
+  width: 0.1rem;
+  height: 8.4rem;
+  margin-top: 8rem;
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5.6rem;
+  height: 5.6rem;
+}
+
+.rectangle p {
+  border-radius: 2.9rem;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  width: 5.6rem;
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  color: #87879d;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+}
+
+.meeting-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 6.4rem;
+  justify-content: center;
+}
+
+.first-pic,
+.second-pic,
+.third-pic,
+.fourth-pic {
+  width: 15.1rem;
+  height: 14.3rem;
+  border-radius: 0.8rem;
+  background: #d8d8d8;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5.6rem;
+}
+
+.built {
+  color: #4d96a9;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.text h2 {
+  color: #28283d;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 3.6rem;
+  width: 14ch;
+  margin-top: 2.4rem;
+}
+
+.send {
+  color: #87879d;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  width: 30ch;
+  margin-top: 3.2rem;
+}
