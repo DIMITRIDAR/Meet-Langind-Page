@@ -250,8 +250,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 37.5rem;
-  height: 42.8rem;
   background-color: rgba(77, 150, 169, 0.8);
 }
 
@@ -267,4 +265,50 @@ footer ::before {
   background-position: top;
   z-index: -1;
   background-size: cover;
+}
+
+.footer-ending {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.experience {
+  color: #fafafa;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 3.6rem;
+  padding: 12rem 4rem 0;
+  width: 22ch;
+}
+
+.description {
+  color: #fafafa;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  width: 27ch;
+}
+
+.download2 {
+  width: 19.3rem;
+  height: 5.8rem;
+  border-radius: 2.9rem;
+  background: #855fb1;
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+  position: relative;
+  bottom: 4rem;
+  margin-top: 3.2rem;
+}
+
+.download2 span {
+  color: #d9b8ff;
 }
