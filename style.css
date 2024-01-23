@@ -118,21 +118,22 @@ main {
 }
 
 .rectangle {
+  display: flex;
   position: absolute;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 5.6rem;
-  height: 5.6rem;
-  bottom: -27rem;
+  top: 88.5rem;
 }
 .flex-container {
-  position: relative;
   background: #87879d;
+  position: absolute;
   stroke-width: 0.1rem;
   opacity: 0.25;
   width: 0.1rem;
   height: 8.4rem;
   left: 2.8rem;
-  top: -19rem;
+  top: -20.6rem;
 }
 
 .rectangle p {
@@ -315,4 +316,39 @@ footer::before {
 
 .download2 span {
   color: #d9b8ff;
+}
+
+@media only screen and (min-width: 48rem) {
+  .header-image {
+    padding: 4.8rem 32.4rem 0;
+  }
+
+  .groups {
+    gap: 3.6rem;
+  }
+  .heroes {
+    width: 70rem;
+    height: 27rem;
+  }
+
+  main {
+    margin-top: 6.4rem;
+  }
+
+  .general {
+    margin-top: 7.2rem;
+  }
+
+  .description {
+    width: 38ch;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .rectangle {
+    top: 93rem;
+  }
 }
