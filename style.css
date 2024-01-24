@@ -351,4 +351,29 @@ footer::before {
   .rectangle {
     top: 93rem;
   }
+
+  .meeting-pictures {
+    display: flex;
+    flex-direction: row;
+    gap: 1.1rem;
+  }
+
+  .text {
+    margin-top: 4.8rem;
+  }
+
+  .text h2 {
+    font-size: 4rem;
+    line-height: 4.4rem;
+    width: 15ch;
+    margin-top: 1.6rem;
+  }
+
+  .send {
+    width: 54ch;
+  }
+
+  footer {
+    margin-top: 19.2rem;
+  }
 }
