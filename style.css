@@ -27,6 +27,7 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 1.6rem;
+  position: relative;
 }
 
 .heroes {
@@ -35,12 +36,10 @@ body {
 }
 
 .group1 {
-  overflow: hidden;
   display: none;
 }
 
 .group2 {
-  overflow: hidden;
   display: none;
 }
 
@@ -51,6 +50,7 @@ main {
   justify-content: center;
   overflow: hidden;
   margin-top: 5.4rem;
+  width: 100%;
 }
 
 .general {
@@ -256,6 +256,7 @@ footer {
   align-items: center;
   background-color: rgba(77, 150, 169, 0.8);
   margin-top: 17.6rem;
+  width: 100%;
 }
 
 footer::before {
