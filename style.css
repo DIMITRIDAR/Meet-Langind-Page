@@ -330,8 +330,8 @@ footer::before {
     flex-direction: row;
   }
 
-  .rectangle {
-    top: 93rem;
+  .difference1 {
+    margin-top: 8rem;
   }
 
   .meeting-pictures {
@@ -357,5 +357,25 @@ footer::before {
 
   footer {
     margin-top: 19.2rem;
+  }
+
+  .footer-ending {
+    gap: 3.2rem;
+  }
+
+  .experience {
+    font-size: 4rem;
+    line-height: 4.4rem;
+    padding: 12rem 4rem 0;
+    width: 15ch;
+  }
+
+  .description1 {
+    width: 47ch;
+  }
+
+  .download2 {
+    bottom: 4rem;
+    margin-top: 3.2rem;
   }
 }
