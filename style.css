@@ -119,19 +119,24 @@ main {
 
 .rectangle {
   display: flex;
-  position: absolute;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 95rem;
 }
+
+.difference1 {
+  margin-top: 6.4rem;
+}
+
 .flex-container {
   background: #87879d;
-  position: absolute;
   stroke-width: 0.1rem;
   opacity: 0.25;
   width: 0.1rem;
   height: 8.4rem;
+}
+
+.difference2 {
   left: 2.8rem;
   top: -20.6rem;
 }
@@ -151,7 +156,6 @@ main {
   font-size: 1.6rem;
   font-weight: 900;
   line-height: 2.6rem;
-  margin-top: -19.1rem;
 }
 
 .meeting-pictures {
@@ -161,7 +165,6 @@ main {
   gap: 2rem;
   margin-top: 6.4rem;
   justify-content: center;
-  margin-top: 27rem;
 }
 
 .first-pic,
@@ -178,7 +181,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5.6rem;
+  margin-top: 6.4rem;
 }
 
 .built {
@@ -210,40 +213,17 @@ main {
   margin-top: 3.2rem;
 }
 
-.rectangle2 {
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.difference4 {
   top: -16rem;
+  position: absolute;
 }
 
-.flex2-container {
-  background: #87879d;
+.difference5 {
   position: absolute;
-  stroke-width: 0.1rem;
-  opacity: 0.25;
-  width: 0.1rem;
-  height: 8.4rem;
   top: 5.2rem;
 }
 
-.rectangle2 p {
-  border-radius: 2.9rem;
-  border: 1px solid rgba(135, 135, 157, 0.25);
-  width: 5.6rem;
-  height: 5.6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.second {
-  color: #87879d;
-  font-size: 1.6rem;
-  font-weight: 900;
-  line-height: 2.6rem;
+.difference6 {
   margin-top: 13.5rem;
   background: #fff;
 }
