@@ -359,6 +359,10 @@ footer::before {
     margin-top: 19.2rem;
   }
 
+  footer::before {
+    background-image: url(./assets/image-footer-tablet.jpg);
+  }
+
   .footer-ending {
     gap: 3.2rem;
   }
@@ -376,6 +380,6 @@ footer::before {
 
   .download2 {
     bottom: 4rem;
-    margin-top: 3.2rem;
+    margin-top: 4rem;
   }
 }
