@@ -406,5 +406,40 @@ footer::before {
 
   .group2 {
     display: flex;
+    padding-left: 25rem;
+  }
+
+  main {
+    margin-top: 13rem;
+  }
+
+  .general {
+    margin-top: -28rem;
+    gap: 3.4rem;
+  }
+
+  .title {
+    font-size: 6.4rem;
+    line-height: 7rem;
+  }
+
+  .description {
+    font-size: 1.8rem;
+    width: 45ch;
+  }
+
+  .download {
+    line-height: 0.163rem;
+  }
+
+  .what {
+    line-height: 0.163rem;
+  }
+
+  .rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
