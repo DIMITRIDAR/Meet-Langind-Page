@@ -383,3 +383,28 @@ footer::before {
     margin-top: 4rem;
   }
 }
+
+@media only screen and (min-width: 90rem) {
+  .header-image {
+    padding: 4.8rem 8rem 0;
+  }
+
+  .groups {
+    display: flex;
+    flex-direction: row;
+    gap: 71.6rem;
+    justify-content: space-between;
+  }
+
+  .heroes {
+    display: none;
+  }
+
+  .group1 {
+    display: flex;
+  }
+
+  .group2 {
+    display: flex;
+  }
+}
