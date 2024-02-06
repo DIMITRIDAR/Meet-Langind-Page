@@ -517,4 +517,10 @@ footer::before {
   .download {
     transition: 0.5s;
   }
+
+  .what:hover {
+    cursor: pointer;
+    background: #b18bdd;
+    transition: 0.5s;
+  }
 }
