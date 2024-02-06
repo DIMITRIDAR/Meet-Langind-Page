@@ -513,4 +513,8 @@ footer::before {
     background: #71c0d4;
     transition: 0.5s;
   }
+
+  .download {
+    transition: 0.5s;
+  }
 }
