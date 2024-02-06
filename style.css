@@ -523,4 +523,7 @@ footer::before {
     background: #b18bdd;
     transition: 0.5s;
   }
+  .what {
+    transition: 0.5s;
+  }
 }
