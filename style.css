@@ -361,22 +361,17 @@ footer::before {
 
   .footer-ending {
     gap: 3.2rem;
+    padding-bottom: 6.6rem;
   }
 
   .experience {
     font-size: 4rem;
     line-height: 4.4rem;
-    padding: 12rem 4rem 0;
     width: 15ch;
   }
 
   .description1 {
     width: 47ch;
-  }
-
-  .download2 {
-    bottom: 4rem;
-    margin-top: 4rem;
   }
 }
 
