@@ -478,13 +478,14 @@ button {
   .footer-ending {
     display: flex;
     flex-direction: row;
-    gap: 6rem;
+    gap: 9.2rem;
+    padding: 11.6rem 0 10.4rem;
   }
   .experience {
-    padding: 11.6rem 16.5rem 10.4rem;
     font-size: 4rem;
-    width: 24ch;
+    width: 35rem;
     text-align: start;
+    margin-right: 3.3rem;
   }
   .description1 {
     width: 29ch;
@@ -492,8 +493,7 @@ button {
   }
 
   .download2 {
-    bottom: 4rem;
-    margin-top: 4rem;
+    margin: 0;
     transition: 0.5s;
   }
 
