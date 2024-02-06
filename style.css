@@ -482,9 +482,29 @@ footer::before {
 
   .footer-ending {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 3.2rem;
+    flex-direction: row;
+    gap: 6rem;
+  }
+  .experience {
+    padding: 11.6rem 16.5rem 10.4rem;
+    font-size: 4rem;
+    width: 24ch;
+    text-align: start;
+  }
+  .description1 {
+    width: 29ch;
+    text-align: start;
+  }
+
+  .download2 {
+    bottom: 4rem;
+    margin-top: 4rem;
+    transition: 0.5s;
+  }
+
+  .download2:hover {
+    cursor: pointer;
+    background: #b18bdd;
+    transition: 0.5s;
   }
 }
