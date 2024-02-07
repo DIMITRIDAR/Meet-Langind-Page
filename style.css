@@ -339,6 +339,7 @@ button {
     display: flex;
     flex-direction: row;
     gap: 1.1rem;
+    width: 64rem;
   }
 
   .text {
@@ -438,6 +439,7 @@ button {
 
   .meeting-pictures {
     gap: 3rem;
+    width: 111rem;
   }
 
   .first-pic,
